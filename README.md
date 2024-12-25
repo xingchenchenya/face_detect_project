@@ -14,3 +14,7 @@
 最后运行main，即可开启摄像头完成人脸检测。
 
 为便于观察，也可以开启videoDetect完成视频的人脸检测，PhotoToVideo是将部分照片生成视频的文件，也需提前运行好，生成output_video.mp4方可运行
+
+## 3.运行效果
+![屏幕截图 2024-12-22 201812](https://github.com/user-attachments/assets/c12f3d33-63f2-4c6f-96af-4008fecfb9a2)
+主界面效果
