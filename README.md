@@ -17,4 +17,4 @@
 
 ## 3.运行效果
 ![屏幕截图 2024-12-22 201812](https://github.com/user-attachments/assets/c12f3d33-63f2-4c6f-96af-4008fecfb9a2)
-主界面效果
+主界面运行效果展示
