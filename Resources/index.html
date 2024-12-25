@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>考勤信息统计</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        *{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>出勤信息统计表</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>学生编号</th>
+                <th>姓名</th>
+                <th>专业</th>
+                <th>班级号</th>
+                <th>出勤次数</th>
+                <th>上次出勤时间</th>
+                <th>年龄</th>
+                <th>入学年份</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for student in data %}
+            <tr>
+                <td>{{ student.id }}</td>
+                <td>{{ student.name }}</td>
+                <td>{{ student.major }}</td>
+                <td>{{ student['class-number'] }}</td>
+                <td>{{ student.attendance }}</td>
+                <td>{{ student['last-attendance-time'] }}</td>
+                <td>{{ student.age }}</td>
+                <td>{{ student['start-year'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
