@@ -1,6 +1,6 @@
 # 人脸识别签到系统 项目说明
 chenshiyu 2021214262 for cqupt digital media courses
-## 1.运行环境
+## 1. 运行环境
 - python 3.11.7
 - dlib 19.24.0
 - cmake 3.25.2
@@ -17,6 +17,6 @@ chenshiyu 2021214262 for cqupt digital media courses
 
 为便于观察，也可以开启videoDetect完成视频的人脸检测，PhotoToVideo是将部分照片生成视频的文件，也需提前运行好，生成output_video.mp4方可运行
 
-## 3.运行效果
+## 3. 运行效果
 ![屏幕截图 2024-12-22 201812](https://github.com/user-attachments/assets/c12f3d33-63f2-4c6f-96af-4008fecfb9a2)
 主界面运行效果展示
